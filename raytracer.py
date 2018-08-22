@@ -29,11 +29,11 @@ class Ray:
         
     def p(self):
         """Returns the position of the ray"""
-        return self._p
+        return self._p[-1]
         
     def k(self):
         """Returns the travel direction of the ray"""
-        return self._k
+        return self._k[-1]
         
     def append(self, p, k):
         """Adds additional positions and directions to the ray
