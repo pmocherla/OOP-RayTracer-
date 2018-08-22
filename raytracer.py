@@ -28,11 +28,11 @@ class Ray:
         self._k = np.array([direction])
         
     def p(self):
-        """Returns the position of the ray"""
+        """Returns the current position of the ray"""
         return self._p[-1]
         
     def k(self):
-        """Returns the travel direction of the ray"""
+        """Returns the current direction of the ray"""
         return self._k[-1]
         
     def append(self, p, k):
